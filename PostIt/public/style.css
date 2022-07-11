@@ -1,0 +1,55 @@
+
+*{
+    background-color:#1a2545 ;
+    backdrop-filter: blur(6px);
+    background-size: cover;
+
+  }
+
+  
+h1{
+    text-align: center;
+    color:#52cce9
+}
+
+span{
+    color:#f00;
+}
+
+.Inserts{
+    display: flex;
+    margin-top: 5px;
+    justify-content: center;
+    align-items: center;
+}
+
+.Inserts label,input{
+    padding: 1px;
+    margin-right: 5px;
+    color: #52cce9;
+
+}
+
+
+
+input{
+    color: #fff;
+    border: none;
+    border-bottom:1px solid #52cce9;
+}
+button{
+    margin-left: 10px;
+    width: 30px ;
+    height: 30px;
+    color: #52cce9;
+    border: 2px solid #52cce9;
+    border-radius: 50%;
+    font-size: 10px;   
+}
+
+
+button:hover{
+    background-color: #77f0f9;
+    cursor: pointer;
+}
+
